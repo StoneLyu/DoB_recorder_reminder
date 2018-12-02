@@ -14,3 +14,10 @@
     - add records
     - manage records (query by name, date, delete and update info)
     - introduction page & error reporting
+
+## implementation
+- Vue for frontend
+- Electron for desktop
+- Node for background
+- NeDB for database
+
