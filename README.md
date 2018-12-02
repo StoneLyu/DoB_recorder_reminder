@@ -1,6 +1,5 @@
 # DoB_recorder_reminder
-# KypinTouch
----
+- new name can be KeepinTouch or something like this
 
 ## design note
 - user local database 
