@@ -31,9 +31,9 @@
 - NeDB for database
     - Data structure
         - _id
-        - Name
-        - DoB
-        - Category
+        - Name: String
+        - DoB: Date `new Date(year, month, day)`
+        - Category: String
 ## usage
 - serve with hot reload at localhost:9080  
 `npm run dev`
