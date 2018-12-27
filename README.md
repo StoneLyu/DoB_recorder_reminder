@@ -18,8 +18,22 @@
 - Vue for frontend
 - Electron for desktop
 - Node for background
+    - all placed in `model` filter
+    - methods:
+        - `findAll`: all records
+        - `findOneWeek`: records in the coming 7 days
+        - `insertOne`: add one new record
+        - `importRecords`: import for external files (consider about the situation when the names and DoBs are same)
+        - `updateOne`: modify one record
+        - `deleteOne`: delete one record
+        - `exportRecords`: export records to external storage (which path?)
+        
 - NeDB for database
-
+    - Data structure
+        - _id
+        - Name
+        - DoB
+        - Category
 ## usage
 - serve with hot reload at localhost:9080  
 `npm run dev`

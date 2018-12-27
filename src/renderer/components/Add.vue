@@ -1,12 +1,22 @@
 <template>
     <div>
-        add new
+        <p>add a new record</p>
+        <!--<input type="text" >-->
+        <button>add</button>
     </div>
 </template>
 
 <script>
+    import db from '../model/DBConnect'
+
   export default {
-    name: 'add'
+    name: 'add',
+      data() {
+
+      },
+      methods(){
+
+      }
   }
 </script>
 
