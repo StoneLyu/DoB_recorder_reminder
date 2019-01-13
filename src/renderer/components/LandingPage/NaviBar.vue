@@ -53,22 +53,22 @@
 </template>
 
 <script>
-  export default {
-    name: 'NaviBar',
-    data () {
-      return {
-        drawer: true,
-        items: [
-          {title: 'Home', icon: 'dashboard', local_path: '/home'},
-          {title: 'Add New', icon: 'add_box', local_path: '/add'},
-          {title: 'Manage Records', icon: 'assignment', local_path: '/manage'},
-          {title: 'About', icon: 'question_answer', local_path: '/about'}
-        ],
-        mini: true,
-        right: null
-      }
+    export default {
+        name: 'NaviBar',
+        data () {
+            return {
+                drawer: true,
+                items: [
+                    {title: 'Home', icon: 'dashboard', local_path: '/homePage'},
+                    {title: 'Add New', icon: 'add_box', local_path: '/addNew'},
+                    {title: 'Manage Records', icon: 'assignment', local_path: '/managePage'},
+                    {title: 'About', icon: 'question_answer', local_path: '/aboutPage'}
+                ],
+                mini: true,
+                right: null
+            }
+        }
     }
-  }
 </script>
 
 <style scoped>

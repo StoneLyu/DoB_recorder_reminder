@@ -8,8 +8,8 @@
   import LandingPage from './components/LandingPage'
 
   export default {
-    name: 'dob',
-    components: { LandingPage }
+      name: 'dob',
+      components: { LandingPage }
   }
 </script>
 

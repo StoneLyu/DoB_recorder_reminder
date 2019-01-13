@@ -41,20 +41,20 @@
 </template>
 
 <script>
-  export default {
-    name: 'sandbox',
-    data () {
-      return {
-        model: null,
-        items: [
-          {title: 'Home', icon: 'dashboard', local_path: '/home'},
-          {title: 'Add New', icon: 'add_box', local_path: '/add'},
-          {title: 'Manage Records', icon: 'assignment', local_path: '/manage'},
-          {title: 'About', icon: 'question_answer', local_path: '/about'}
-        ]
-      }
+    export default {
+        name: 'sandbox',
+        data () {
+            return {
+                model: null,
+                items: [
+                    {title: 'Home', icon: 'dashboard', local_path: '/homePage'},
+                    {title: 'Add New', icon: 'add_box', local_path: '/addNew'},
+                    {title: 'Manage Records', icon: 'assignment', local_path: '/managePage'},
+                    {title: 'About', icon: 'question_answer', local_path: '/aboutPage'}
+                ]
+            }
+        }
     }
-  }
 </script>
 
 <style>

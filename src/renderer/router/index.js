@@ -9,30 +9,30 @@ import aboutPage from '../components/About'
 Vue.use(Router)
 
 const router = new Router({
-  routes: [
-    {
-      path: '/home',
-      name: 'home',
-      component: homePage
-    },
-    {
-      path: '/add',
-      name: 'add',
-      component: addNew
-    },
-    {
-      path: '/manage',
-      name: 'manage',
-      component: managePage
-    },
-    {
-      path: '/about',
-      name: 'about',
-      component: aboutPage
-    }
-  ]
+    routes: [
+        {
+            path: '/homePage',
+            // name: 'homePage',
+            component: homePage
+        },
+        {
+            path: '/addNew',
+            // name: 'addNew',
+            component: addNew
+        },
+        {
+            path: '/managePage',
+            // name: 'managePage',
+            component: managePage
+        },
+        {
+            path: '/aboutPage',
+            // name: 'aboutPage',
+            component: aboutPage
+        }
+    ]
 })
 
-router.push('/home')
+router.push('/homePage')
 
 export default router

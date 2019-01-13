@@ -7,8 +7,8 @@
   import VuetifySandbox from './VuetifySandbox'
 
   export default {
-    name: 'landing-page',
-    components: {VuetifySandbox, NaviBar}
+      name: 'landing-page',
+      components: {VuetifySandbox, NaviBar}
   }
 </script>
 

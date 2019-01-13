@@ -7,17 +7,17 @@
 </template>
 
 <script>
-    import db from '../model/DBConnect'
+    // import db from '../model/DBConnect'
 
-  export default {
-    name: 'add',
-      data() {
+    export default {
+        name: 'addNew',
+        data () {
 
-      },
-      methods(){
+        },
+        methods () {
 
-      }
-  }
+        }
+    }
 </script>
 
 <style scoped>
